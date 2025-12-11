@@ -12,6 +12,8 @@ import {
   BarChart3,
   HelpCircle,
   X,
+  Sparkles,
+  FolderTree,
 } from "lucide-react";
 import { Button, ScrollArea, Separator } from "@/shared/ui";
 import { cn } from "@/shared/lib";
@@ -28,6 +30,12 @@ const sidebarNav = [
     items: [
       { title: "Home", href: "/", icon: Home },
       { title: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
+    ],
+  },
+  {
+    title: "AI Tools",
+    items: [
+      { title: "Sitemap Generator", href: "/sitemap-generator", icon: FolderTree },
     ],
   },
   {
